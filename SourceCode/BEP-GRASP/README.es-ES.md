@@ -36,11 +36,3 @@ Por ejemplo, `./bep-grasp -i instances/real/BEP-5-52-12-50.txt -s 5 -ref 0.3 -it
 
 **solver:** contiene la función con la estructura de GRASP, las funciones necesarias para la construcción de la solución inicial, y las funciones asociadas al algoritmo de búsqueda local Hill Climbing de la fase de postprocesamiento
 
-
-### 4. Archivos para ejecutar experimentos
-
-Para la ejecución de los experimentos se generaron tres archivos, que pueden ser ejecutados como ./{nombreArchivoBash}.
-
-**bash-bep-Random.sh:** pruebas para las instancias generadas aleatoriamente
-**bash-bep-Real.sh:** pruebas de parámetros para las instancias del indendio de valparaíso
-**bash-bep-Real_bus-var.sh:** pruebas sobre instancias del incendio, variando el número de buses
