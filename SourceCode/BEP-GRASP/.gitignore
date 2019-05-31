@@ -1,0 +1,9 @@
+# Bash files for testing #
+bashFiles/
+
+# Compiled and result files #
+*.o
+*.txt
+
+# Executable #
+bep-grasp
