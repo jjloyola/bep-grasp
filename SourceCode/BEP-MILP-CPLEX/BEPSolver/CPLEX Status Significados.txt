@@ -1,0 +1,70 @@
+Code number	Solution status
+1	Optimal solution is available.
+2	Problem has an unbounded ray.
+3	Problem has been proven infeasible.
+4	Problem has been proven either infeasible or unbounded.
+5	Optimal solution is available, but with infeasibilities after unscaling.
+6	Solution is available, but not proved optimal, due to numeric difficulties during optimization.
+10	Stopped due to limit on number of iterations.
+11	Stopped due to a time limit.
+12	Stopped due to an objective limit.
+13	Stopped due to a request from the user.
+14	This status occurs only with the parameter feasoptmode set to 0 on a continuous problem. A relaxation was successfully found and a feasible solution for the problem. (if relaxed according to that relaxation) was installed. The relaxation is minimal.
+15	This status occurs only with the parameter feasoptmode set to 1 on a continuous problem. A relaxation was successfully found and a feasible solution for the problem. (if relaxed according to that relaxation) was installed. The relaxation is optimal.
+16	This status occurs only with the parameter feasoptmode set to 2 on a continuous problem. A relaxation was successfully found and a feasible solution for the problem. (if relaxed according to that relaxation) was installed. The relaxation is minimal.
+17	This status occurs only with the parameter feasoptmode set to 3 on a continuous problem. A relaxation was successfully found and a feasible solution for the problem. (if relaxed according to that relaxation) was installed. The relaxation is optimal.
+18	This status occurs only with the parameter feasoptmode set to 4 on a continuous problem. A relaxation was successfully found and a feasible solution for the problem. (if relaxed according to that relaxation) was installed. The relaxation is minimal.
+19	This status occurs only with the parameter feasoptmode set to 5 on a continuous problem. A relaxation was successfully found and a feasible solution for the problem. (if relaxed according to that relaxation) was installed. The relaxation is optimal.
+20	Model has an unbounded optimal face.
+21	Stopped due to a limit on the primal objective.
+22	Stopped due to a limit on the dual objective.
+23	The problem under consideration was found to be feasible after phase 1 of FeasOpt. A feasible solution is available.
+24	Solution satisfies first-order optimality conditions for a solution returned by the barrier optimizer.
+25	Stopped due to a deterministic time limit.
+30	The problem appears to be feasible; no conflict is available.
+31	The conflict refiner found a minimal conflict.
+32	The conflict refiner concluded contradictory feasibility for the same set of constraints due to numeric problems. A conflict is available, but it is not minimal.
+33	The conflict refiner terminated because of a time limit. A conflict is available, but it is not minimal.
+34	The conflict refiner terminated because of an iteration limit. A conflict is available, but it is not minimal.
+35	The conflict refiner terminated because of a node limit. A conflict is available, but it is not minimal.
+36	The conflict refiner terminated because of an objective limit. A conflict is available, but it is not minimal.
+37	The conflict refiner terminated because of a memory limit. A conflict is available, but it is not minimal.
+38	The conflict refiner terminated because a user terminated the application. A conflict is available, but it is not minimal.
+39	The conflict refiner terminated because of a deterministic time limit. A conflict is available, but it is not minimal.
+101	Optimal integer solution has been found.
+102	Optimal solution with the tolerance defined by epgap or epagap has been found.
+103	Solution is integer infeasible
+104	The limit on mixed integer solutions has been reached.
+105	Node limit has been exceeded but integer solution exists.
+106	Node limit has been reached; no integer solution.
+107	Time limit exceeded, but integer solution exists.
+108	Time limit exceeded; no integer solution.
+109	Terminated because of an error, but integer solution exists.
+110	Terminated because of an error; no integer solution.
+111	Limit on tree memory has been reached, but an integer solution exists.
+112	Limit on tree memory has been reached; no integer solution.
+113	Stopped, but an integer solution exists.
+114	Stopped; no integer solution.
+115	Problem is optimal with unscaled infeasibilities.
+116	Out of memory, no tree available, integer solution exists.
+117	Out of memory, no tree available, no integer solution.
+118	Problem has an unbounded ray.
+119	Problem has been proved either infeasible or unbounded.
+120	This status occurs only with the parameter feasoptmode set to 0 on a mixed integer problem. A relaxation was successfully found and a feasible solution for the problem (if relaxed according to that relaxation) was installed. The relaxation is minimal.
+121	This status occurs only with the parameter feasoptmode set to 1 on a mixed integer problem. A relaxation was successfully found and a feasible solution for the problem (if relaxed according to that relaxation) was installed. The relaxation is optimal.
+122	This status occurs only with the parameter feasoptmode set to 2 on a mixed integer problem. A relaxation was successfully found and a feasible solution for the problem (if relaxed according to that relaxation) was installed. The relaxation is minimal.
+123	This status occurs only with the parameter feasoptmode set to 3 on a mixed integer problem. A relaxation was successfully found and a feasible solution for the problem (if relaxed according to that relaxation) was installed. The relaxation is optimal.
+124	This status occurs only with the parameter feasoptmode set to 4 on a mixed integer problem. A relaxation was successfully found and a feasible solution for the problem (if relaxed according to that relaxation) was installed. The relaxation is minimal.
+125	This status occurs only with the parameter feasoptmode set to 5 on a mixed integer problem. A relaxation was successfully found and a feasible solution for the problem (if relaxed according to that relaxation) was installed. The relaxation is optimal.
+126	
+This status occurs only after a call to feasOpt, when the algorithm terminates prematurely, for example after reaching a limit.
+
+This status means that a relaxed solution is available and can be queried.
+
+127	The problem under consideration was found to be feasible after phase 1 of FeasOpt. A feasible solution is available. This status is also used in the status field of solution and mipstart files for solutions from the solution pool.
+128	This status occurs only after a call to the method populate on a MIP problem. The limit on mixed integer solutions generated by populate, as specified by the parameter populatelim, has been reached.
+129	This status occurs only after a call to the method populate on a MIP problem. Populate has completed the enumeration of all solutions it could enumerate.
+130	This status occurs only after a call to the method populate on a MIP problem. Populate has completed the enumeration of all solutions it could enumerate whose objective value fit the tolerance specified by the parameters solnpoolagap and solnpoolgap.
+131	Deterministic time limit exceeded, but integer solution exists.
+132	Deterministic time limit exceeded; no integer solution.
+133	Could not bound convex relaxation of nonconvex (MI)QP

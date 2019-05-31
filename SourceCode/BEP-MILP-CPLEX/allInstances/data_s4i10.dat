@@ -1,0 +1,8 @@
+B=3;
+D=1;
+P=4;
+S=4;
+demands = [5 1 2 3 ];
+capacities = [9 3 4 9 ];
+dist_start = [6 9 9 6 ];
+dist = [8 6 2 8 8 4 4 9 4 5 2 1 9 2 9 9 ];
