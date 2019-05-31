@@ -36,11 +36,3 @@ An example would be `./bep-grasp -i instances/real/BEP-5-52-12-50.txt -s 5 -ref 
 
 **solver:** Contains the GRASP structure, methods that generate the initial solution, and the methods used by the local search algorithm (Hill Climbing) for post-processing.
 
-
-### 4. Bash files for experiments
-
-To execute experiments, three bash files are available.
-
-**bash-bep-Random.sh:** test on randomly generated instances
-**bash-bep-Real.sh:** test on real case based instances
-**bash-bep-Real_bus-var.sh:** test on one real-based instance, changing the number of buses.
